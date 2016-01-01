@@ -14,8 +14,13 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Google Font CSS-->
+    <link href='https://fonts.googleapis.com/css?family=Kanit:300' rel='stylesheet' type='text/css'>
+
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,7 +31,7 @@
 
 </head>
 
-<body>
+<body id="bootstrap-override">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -39,21 +44,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
-                    <img src="http://placehold.it/150x50&text=Logo" alt="">
+
+                <a class="navbar-brand" href="index.php">
+                    <img src="img/logo.png" alt="">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="./about.html">About</a>
+                        <a href="./about.php">About</a>
                     </li>
                     <li>
-                        <a href="./shop.html">Shop</a>
+                        <a href="./shop.php">Shop</a>
                     </li>
 		            <li>
-			            <a href="./contacts.html">Contacts</a>
+			            <a href="./contacts.php">Contacts</a>
 		            </li>
                 </ul>
             </div>
@@ -117,15 +123,7 @@
         <!-- /.row -->
 
         <!-- Footer -->
-       <!-- <?php include("./includes/footer.html"); ?> -->
-         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; WayCool3D 2016</p>
-                </div>
-            </div>
-        </footer>
-
+        <?php include("./includes/footer.php"); ?> 
 
     </div>
     <!-- /.container -->
