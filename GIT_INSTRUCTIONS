@@ -1,0 +1,20 @@
+
+How to clone repository:
+	1. CD into directory
+	2. Type "git clone" then paste link from GitHub
+
+How to push:
+	1. Go to git project directory
+	2. Type "git pull" to get the latest version 
+	3. Type "git status" and just confirm the files changed
+	4. Type "git add -A" to add all files to commit
+	5. Type "git commit -m "<message here>"" with a short but descriptive message
+	6. Type "git push" and enter credentials
+
+How to pull:
+	1. Go to git project directory
+	2. Type "git pull" to get the latest version 
+		2a. If there's an error about merging, CONTACT MINGLE
+
+Copyright 2016 WayCool3D
+
