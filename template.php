@@ -46,8 +46,9 @@
                 <div class="banner">
                     <div class="video-container">
                         <video autoplay loop poster="http://placehold.it/900x350">
-                            <source src="video/video.webm" type="video/webm">
                             <source src="video/video.mp4" type="video/mp4">
+                            <source src="video/video.webm" type="video/webm">
+                            <source src="video/video.ogv" type="video/ogg">
                         </video>
                         <!-- <div class="video-mask"></div> -->
                     </div>

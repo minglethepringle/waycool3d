@@ -11,15 +11,8 @@
 
     <title>WayCool3D | Home</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Google Font CSS-->
-    <link href='https://fonts.googleapis.com/css?family=Kanit:300' rel='stylesheet' type='text/css'>
-
     <!-- Custom CSS -->
-    <link href="css/small-business.css" rel="stylesheet">
-    <link href="css/common.css" rel="stylesheet">
+    <?php include './includes/common.php';?>
     <link href="css/index.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -45,9 +38,10 @@
                 <!-- <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt=""> -->
                 <div class="banner">
                     <div class="video-container">
-                        <video autoplay loop poster="http://placehold.it/900x350">
-                            <source src="video/video.webm" type="video/webm">
+                        <video autoplay loop poster="https://placehold.it/900x350/000000/000000">
                             <source src="video/video.mp4" type="video/mp4">
+                            <source src="video/video.webm" type="video/webm">
+                            <source src="video/video.ogv" type="video/ogg">
                         </video>
                         <!-- <div class="video-mask"></div> -->
                     </div>
@@ -56,8 +50,8 @@
             <!-- /.col-md-8 -->
             <div class="col-md-4">
                 <h1>WayCool3D</h1>
-                <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-                <a class="btn btn-primary btn-lg" href="#">Check out our products!</a>
+                <p>We print stuff. Not like inkjet or laser printing, but 3D printing. Another whole new dimension, and it's possible to print basically anything you want! Since this breakthrough technology gives printers a whole new dimension, your own 3D printed objects are just a click ahead.</p>
+                <a class="btn btn-primary btn-lg" href="./shop.php">Check out our products!</a>
             </div>
             <!-- /.col-md-4 -->
         </div>
@@ -80,20 +74,20 @@
         <div class="row">
             <div class="col-md-4">
                 <h2>Who are we?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-                <a class="btn btn-default" href="#">More Info</a>
+                <p>We're just two ordinary middle-school entrepreneurs. With some extraordinary technology powers in our hands.</p>
+                <a class="btn btn-default" href="./about.php">More About Us</a>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
                 <h2>What do we do?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-                <a class="btn btn-default" href="#">More Info</a>
+                <p>We use our 3D printer to print objects, from keychains to phone cases. We can also ship (with a charge, of course)!</p>
+                <a class="btn btn-default" href="#">More About Our 3D Printer</a>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4">
                 <h2>Where do we do it?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-                <a class="btn btn-default" href="#">More Info</a>
+                <p>The webpage itself is stored on our web server. And the 3D printer is just sitting in Walker's basement, ready for orders.</p>
+                <a class="btn btn-default" href="#">More About How We Started</a>
             </div>
             <!-- /.col-md-4 -->
         </div>
