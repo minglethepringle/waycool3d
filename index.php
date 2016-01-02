@@ -50,7 +50,7 @@
             <!-- /.col-md-8 -->
             <div class="col-md-4">
                 <h1>WayCool3D</h1>
-                <p>We print stuff. Not like inkjet or laser printing, but 3D printing. Another whole new dimension, and it's possible to print basically anything you want! Since this breakthrough technology gives printers a whole new dimension, your own 3D printed objects are just a click ahead.</p>
+                <p>We print stuff. Not like inkjet or laser printing, but 3D printing. It adds another whole new dimension, and it's possible to print basically anything you want! Since this breakthrough technology gives printers a whole new dimension, your own 3D printed objects are just a click ahead.</p>
                 <a class="btn btn-primary btn-lg" href="./shop.php">Check out our products!</a>
             </div>
             <!-- /.col-md-4 -->

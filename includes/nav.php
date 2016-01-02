@@ -22,6 +22,12 @@
                     <li>
                         <a href="./shop.php">Shop</a>
                     </li>
+                    <li>
+                        <a href="./faq.php">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="./story.php">Our Story</a>
+                    </li>
 		            <li>
 			            <a href="./contacts.php">Contact Us</a>
 		            </li>
