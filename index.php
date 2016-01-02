@@ -74,7 +74,16 @@
         <!-- Heading Row -->
         <div class="row">
             <div class="col-md-8">
-                <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt="">
+                <!-- <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt=""> -->
+                <div class="banner">
+                    <div class="video-container">
+                        <video autoplay loop poster="http://placehold.it/900x350">
+                            <source src="video/video.webm" type="video/webm">
+                            <source src="video/video.mp4" type="video/mp4">
+                        </video>
+                        <!-- <div class="video-mask"></div> -->
+                    </div>
+                </div>
             </div>
             <!-- /.col-md-8 -->
             <div class="col-md-4">
