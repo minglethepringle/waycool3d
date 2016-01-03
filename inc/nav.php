@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="./home">
                     <img src="img/logo.png" alt="">
                 </a>
             </div>
@@ -17,20 +17,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="./about.php">About</a>
+                        <a href="./about">About</a>
                     </li>
                     <li>
-                        <a href="./shop.php">Shop</a>
+                        <a href="./shop">Shop</a>
                     </li>
                     <li>
-                        <a href="./faq.php">FAQ</a>
+                        <a href="./faq">FAQ</a>
                     </li>
                     <li>
-                        <a href="./story.php">Our Story</a>
+                        <a href="./story">Our Story</a>
                     </li>
-		            <li>
-			            <a href="./contacts.php">Contact Us</a>
-		            </li>
+		    <li>
+			<a href="./contacts.php">Contact Us</a>
+		    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

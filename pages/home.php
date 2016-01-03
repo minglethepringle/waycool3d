@@ -7,12 +7,6 @@
                 <!-- <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt=""> -->
                 <div class="banner">
                     <div class="video-container">
-                        <video autoplay loop poster="https://placehold.it/900x350/000000/000000">
-                            <source src="video/video.mp4" type="video/mp4">
-                            <source src="video/video.webm" type="video/webm">
-                            <source src="video/video.ogv" type="video/ogg">
-                        </video>
-                        <!-- <div class="video-mask"></div> -->
                     </div>
                 </div>
             </div>

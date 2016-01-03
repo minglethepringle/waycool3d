@@ -13,23 +13,21 @@
 
 					<p class="footer-links">
 						<a href="./index.php">Home</a>
-						·
+						|
 						<a href="./about.php">About</a>
-						·
+						|
 						<a href="./shop.php">Shop</a>
-						·
-						<a href="./info.php">3D Printer Info</a>
-						·
+						|
 						<a href="./faq.php">FAQ</a>
-						·
+						|
 						<a href="./story.php">Our Story</a>
-						·
+						|
 						<a href="./contact.php">Contact Us</a>
-						·
+						|
 						<a href="">Go To Top</a>
 					</p>
 
-					<p>WayCool3D &copy; 2015</p>
+					<p>WayCool3D &copy; <?php echo(date('Y')); ?></p>
 				</div>
 	    <!-- jQuery -->
 	    <script src="js/jquery.js"></script>
