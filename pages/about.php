@@ -1,8 +1,3 @@
-<body>
-
-    <!-- Navigation -->
-    <?php include './includes/nav.php';?>
-
     <!-- Page Content -->
     <div class="container">
         <!-- Content Row -->
@@ -34,21 +29,3 @@
 		<p>We use Walker's printer to print phone cases. Walker has a 3rd gen Cube printer. We also can print keychains or if you want we can make something you design in tinkercad or blender. All you need to do is send us the <i>.stl</i> file and we can make it. We charge based on how much the thing you make weighs.</p>
 	  </div>
 	</div>
-
-        <!-- /.row -->
-
-        <!-- Footer -->
-        <?php include("./includes/footer.php"); ?> 
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>

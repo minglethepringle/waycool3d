@@ -1,7 +1,3 @@
-<body>
-    <!-- Navigation -->
-    <?php include './includes/nav.php';?>
-
     <!-- Page Content -->
     <div class="container">
 
@@ -52,14 +48,3 @@
             </div>
             <!-- /.col-md-4 -->
         </div>
-        <!-- /.row -->
-
-        <!-- Footer -->
-        <?php include("./includes/footer.php"); ?> 
-
-    </div>
-    <!-- /.container -->
-
-</body>
-
-</html>
