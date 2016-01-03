@@ -1,3 +1,7 @@
+
+<?php defined('_OK_INC') or die('Direct access not allowed.'); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +10,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>WayCool3D | Home</title>
+    <meta name="description" content="<?php echo $meta['descr']; ?>">
+    <meta name="keywords" content="<?php echo $meta['keywd']; ?>">
+    <meta name="author" content="Sigma Designs Online">
+ 
+    <title><?php echo $meta['title']; ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,23 +36,3 @@
 
 </head>
 
-<body>
-
-    <!-- Navigation -->
-    <?php include './includes/nav.php';?>
-
-    <!-- Page Content -->
-    <div class="container">
-        <?php include("./includes/footer.php"); ?> 
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>

@@ -1,92 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php define('_OK_INC',1);
 
-<head>
+// error handling code 
+error_reporting(E_ALL^E_STRICT);
+ini_set("display_errors", 0);
+ini_set("log_errors", 1);
+ini_set("error_log", dirname($_SERVER['DOCUMENT_ROOT'])."/path/to.log");
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+$req = "/home";
 
-    <title>WayCool3D | Home</title>
+// incoming requests
+if((isset($_SERVER['REQUEST_URI'])) && (preg_match('/^\/[A-Za-z0-9-_\/]+$/',($_SERVER['REQUEST_URI'])))) {
+    $req = rtrim($_SERVER['REQUEST_URI'],"/");
 
-    <!-- Custom CSS -->
-    <?php include './includes/common.php';?>
-    <link href="css/index.css" rel="stylesheet">
+    elseif(!file_exists($_SERVER['DOCUMENT_ROOT'].'/page'.$req.'.php')) {
+        $req = "/home";
+    }
+}
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+// adds data file array with sensible default meta tags
 
-</head>
+@include_once(realpath(__DIR__)).'/page/data'.$req.'.php';
+if(!isset($meta)) {
+    $meta = array(
+        "keywd" => "Waycool3D,3D printing,custom phone case,print,what you want",
+        "descr" => "Waycool3D website and store.",
+        "title" => "Waycool3D"
+    );
+}
 
-<body>
+require_once(realpath(__DIR__)).'/inc/header.php';
 
-    <!-- Navigation -->
-    <?php include './includes/nav.php';?>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Heading Row -->
-        <div class="row">
-            <div class="col-md-8">
-                <!-- <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt=""> -->
-                <div class="banner">
-                    <div class="video-container">
-                        <video autoplay loop poster="https://placehold.it/900x350/000000/000000">
-                            <source src="video/video.mp4" type="video/mp4">
-                            <source src="video/video.webm" type="video/webm">
-                            <source src="video/video.ogv" type="video/ogg">
-                        </video>
-                        <!-- <div class="video-mask"></div> -->
-                    </div>
-                </div>
-            </div>
-            <!-- /.col-md-8 -->
-            <div class="col-md-4">
-                <h1>WayCool3D</h1>
-                <p>We print stuff. Not like inkjet or laser printing, but 3D printing. It adds another whole new dimension, and it's possible to print basically anything you want! Since this breakthrough technology gives printers a whole new dimension, your own 3D printed objects are just a click ahead.</p>
-                <a class="btn btn-primary btn-lg" href="./shop.php">Check out our products!</a>
-            </div>
-            <!-- /.col-md-4 -->
-        </div>
-        <!-- /.row -->
-
-        <hr>
-        <!-- Content Row -->
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Who are we?</h2>
-                <p>We're just two ordinary middle-school entrepreneurs. With some extraordinary technology powers in our hands.</p>
-                <a class="btn btn-default" href="./about.php#who">More About Us</a>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-4">
-                <h2>What do we do?</h2>
-                <p>We use our 3D printer to print objects, from keychains to phone cases. We can also ship (with a charge, of course)!</p>
-                <a class="btn btn-default" href="./about.php#what">More About Our 3D Printer</a>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-4">
-                <h2>Where do we do it?</h2>
-                <p>The webpage itself is stored on our web server. And the 3D printer is just sitting in Walker's basement, ready for orders.</p>
-                <a class="btn btn-default" href="./about.php#where">More About How We Started</a>
-            </div>
-            <!-- /.col-md-4 -->
-        </div>
-        <!-- /.row -->
-
-        <!-- Footer -->
-        <?php include("./includes/footer.php"); ?> 
-
-    </div>
-    <!-- /.container -->
-
-</body>
-
-</html>
+require_once(realpath(__DIR__)).'/page'.$req.'.php'; // actual page content
+?>
