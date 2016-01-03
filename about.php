@@ -38,18 +38,6 @@
 
     <!-- Page Content -->
     <div class="container">
-
-        <!-- Call to Action Well -->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="well text-center">
-                    This is a well that is a great spot for a business tagline or phone number for easy access!
-                </div>
-            </div>
-            <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-
         <!-- Content Row -->
         <div class="row">
             <div class="col-lg-12">
@@ -60,11 +48,17 @@
 	<div class="row">
 	   <div class="col-md-4">
 		<h2>Mingle</h2>
+		<a href="https://plus.google.com/u/0/+MingleLiakaEpicGamingPro/posts">
 		<img src="./img/mingle.gif" alt="Mingle">
+		</a>
+		<p style="font-size:20px">put some stuff about you her kid</p>
 	   </div>
            <div class="col-md-4">
                 <h2>Walker</h2>
+		<a href="https://plus.google.com/u/0/107473445451148577968/about">
                 <img src="./img/walker.gif" alt="Walker">
+		</a>
+		<p style="font-size:20px">Walker is a middle schools student with a 3D printer and a computer. He likes to use the terminal and solve rubiks cubes. He can solve them in less then a minute and can solve 2x2's and pyraminxes. He also plays has been playing piano and cello for over 5 years.</p>
            </div>
         </div>
         <!-- /.row -->
