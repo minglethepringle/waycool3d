@@ -27,5 +27,6 @@
 	   <div class="col-lg-12">
 		<h2>What do we do?</h2>
 		<p>We use Walker's printer to print phone cases. Walker has a 3rd gen Cube printer. We also can print keychains or if you want we can make something you design in tinkercad or blender. All you need to do is send us the <i>.stl</i> file and we can make it. We charge based on how much the thing you make weighs.</p>
+		<img src="/img/cube_printr" alt="3D printer">
 	  </div>
 	</div>
