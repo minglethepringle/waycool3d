@@ -6,8 +6,7 @@
             <div class="col-md-8">
                 <!-- <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt=""> -->
                 <div class="banner">
-                    <div class="video-container">
-                    </div>
+                    <img src="https://placehold.it/900x350/">
                 </div>
             </div>
             <!-- /.col-md-8 -->
