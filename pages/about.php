@@ -20,7 +20,7 @@
 		<a href="https://plus.google.com/u/0/107473445451148577968/about">
                 <img src="./img/walker.gif" alt="Walker">
 		</a>
-		<p>Walker is a middle schools student with a 3D printer and a computer. He likes to use the terminal and solve rubiks cubes. He can solve them in less then a minute and can solve 2x2's and pyraminxes. He also plays has been playing piano and cello for over 5 years.</p>
+		<p>Walker is a middle school student with a 3D printer and a computer. He likes to use the terminal and solve rubiks cubes. He can solve them in less then a minute and can solve 2x2's and pyraminxes. He also plays has been playing piano and cello for over 5 years.</p>
            </div>
         </div>
 	<div class="row" id="What">
