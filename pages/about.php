@@ -14,14 +14,13 @@
 		<a href="https://plus.google.com/u/0/+MingleLiakaEpicGamingPro/posts">
 			<img src="./img/mingle.gif" alt="Mingle">
 		</a>
-		<p></p>
+		<p>Mingle is the software and client side half of the company. He is the person who makes the layout, page, and shop plugin for the webpage. He also started the GitHub repository and taught Walker how to use Git./p>
 	   </div>
            <div class="col-md-4">
                 <h2>Walker</h2>
 		<a href="https://plus.google.com/u/0/107473445451148577968/about">
                 	<img src="./img/walker.gif" alt="Walker">
 		</a>
-		<p>Mingle is the software and client side half of the company. He is the person who makes the layout, page, and shop plugin for the webpage. He also started the GitHub repository and taught Walker how to use Git./p>
 		<p>Walker is the hardware and server side half of the company. He is the person who prints the objects and codes the PHP rules for the server and webpage to use. He also helped with the front-end website. </p>
            </div>
         </div>
