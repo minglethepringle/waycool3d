@@ -32,3 +32,10 @@
 		<img src="/img/cube_printr" alt="3D printer">
 	  </div>
 	</div>
+	<a id="where"></a>
+	<div class="row">
+	   <div class="col-lg-12">
+		<h2>Where do we do it?</h2>
+		<p>The webpage is stored on Walker's PHP webserver. The printer was bought by Walker and, well, just thank Walker for all the supplies. However, Mingle is the one who came up with the company idea!</p>
+	  </div>
+	</div>
