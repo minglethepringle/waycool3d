@@ -40,6 +40,10 @@ p {
 	text-align: justify;
 }
 
+box{
+	border: 5px;
+}
+
 //Footer CSS
 .footer-distributed{
 	background-color: #ffffff;
