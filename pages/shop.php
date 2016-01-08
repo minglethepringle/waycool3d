@@ -1,8 +1,10 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-12">
-
+	    <div class="col-md-3">
+	    </div>
+            <div class="col-md-9">
+		   
                 <div class="row carousel-holder">
 
                     <div class="col-md-12">
@@ -17,7 +19,7 @@
                                     <img class="slide-image" src="./img/randy.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+				    <img class="slide-image" src="./img/sam.jpg" alt="">
                                 </div>
                                 <div class="item">
                                     <img class="slide-image" src="http://placehold.it/800x300" alt="">
