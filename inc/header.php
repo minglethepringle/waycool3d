@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php echo $meta['descr']; ?>">
     <meta name="keywords" content="<?php echo $meta['keywd']; ?>">
-    <meta name="author" content="Sigma Designs Online">
+    <meta name="author" content="Walker, Mingle">
  
     <title><?php echo $meta['title']; ?></title>
 
