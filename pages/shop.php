@@ -15,7 +15,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/01/90/41/15/04/IMG_4585_preview_featured.jpg" alt="">
+                            <img src="img/cats.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$5</h4>
                                 <h4><a href="#">Cudding Cats!</a>
