@@ -8,7 +8,7 @@
                                 <h4 class="pull-right">$10</h4>
                                 <h4><a href="#">Custom Case</a>
                                 </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                                <p>Custom cases are something everybody wants.<a href="/shop/case"> Get your's today!</a></p>
                             </div>
                         </div>
                     </div>
@@ -20,8 +20,7 @@
                                 <h4 class="pull-right">$5</h4>
                                 <h4><a href="#">Cudding Cats!</a>
                                 </h4>
-
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Cats are cool. Especially cudding cats. <a href="/shop/cats">If you want one come and get it!</a></p>
                             </div>
                         </div>
                     </div>
