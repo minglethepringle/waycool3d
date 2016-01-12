@@ -44,6 +44,12 @@ box{
 	border: 5px;
 }
 
+#hiddendog{display: none;}
+
+
+
+
+
 //Footer CSS
 .footer-distributed{
 	background-color: #ffffff;
