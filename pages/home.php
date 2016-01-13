@@ -2,7 +2,7 @@
     <div class="row">
       <div class="col-md-8">
         <div class="banner">
-          <img src="https://placehold.it/900x350/">
+          <img src="https://placehold.it/650x350/">
         </div>
       </div>
       <div class="col-md-4">
