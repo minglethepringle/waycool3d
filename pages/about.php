@@ -12,14 +12,14 @@
         <a href="https://plus.google.com/u/0/+MingleLiakaEpicGamingPro/posts">
         <img src="img/mingle.gif" alt="Mingle">
         </a>
-        <p>Mingle is the software and client side half of the company. He is the person who makes the layout, page, and shop plugin for the webpage. He also started the GitHub repository and taught Walker how to use Git./p>
+        <p>Mingle came up with the idea for the company and does 50% of the stuff with the website. Since age 7, his dad, a software programmer, taught him how to program, starting with C and moving to C++, Java, and more object-oriented programming languages. Since then, he has learned over 10 languages!</p>
       </div>
       <div class="col-md-4">
         <h2>Walker</h2>
         <a href="https://plus.google.com/u/0/107473445451148577968/about">
         <img src="img/walker.gif" alt="Walker">
         </a>
-        <p>Walker has the 3D printer (Which he bought himself :D) and does 50% of the stuff with the website. He likes to use the terminal and solve rubiks cubes. He averages about 30 seconds when solving & used the terminal to write this very sentence! Visit <a href="walkerwhitehouse.com">his website</a> to learn more!</p>
+        <p>Walker bought the 3D printer and does the other 50% of the stuff with the website. He likes to use the terminal and solve Rubik's cubes, with a 30 second average solve. He also used the terminal to write this very sentence! Visit <a href="http://walkerwhitehouse.com/">his website</a> to learn more!</p>
       </div>
     </div>
     <a id="what"></a>
