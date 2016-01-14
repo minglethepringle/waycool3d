@@ -1,8 +1,8 @@
   <footer class="footer-distributed">
     <div class="footer-right">
-      <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+      <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+      <a target="_blank" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
     </div>
     <div class="footer-left">
       <p class="footer-links">
@@ -13,7 +13,7 @@
         <a href="/story">Our Story</a> | 
         <a href="/contact">Contact Us</a>
       </p>
-      <p>WayCool3D &copy; <?php echo(date('Y')); ?></p>
+      <p>WayCool3D &copy; <?php echo(date('Y')); ?>. All rights reserved.</p>
     </div>
   </footer>
 <!-- jQuery -->

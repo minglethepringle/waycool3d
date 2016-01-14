@@ -2,13 +2,13 @@
     <div class="row">
       <div class="col-md-8">
         <div class="banner">
-          <img src="https://placehold.it/650x350/">
+          <img src="https://placehold.it/750x350/">
         </div>
       </div>
       <div class="col-md-4">
-        <h1>WayCool3D</h1>
-        <p>We print stuff. Not like inkjet or laser printing, but 3D printing. It adds another whole new dimension, and it's possible to print basically anything you want! Since this breakthrough technology gives printers a whole new dimension, your own 3D printed objects are just a click ahead.</p>
-        <a class="btn btn-primary btn-lg" href="/shop.php">Check out our products!</a>
+        <h1>We print stuff.</h1>
+        <p>Not like inkjet or laser printing, but 3D printing. It adds another whole new dimension, and it's possible to print basically anything you want! Since this breakthrough technology gives printers a whole new dimension, your own 3D printed objects are just a click ahead.</p>
+        <a class="btn btn-primary btn-lg" href="/shop">Check out our products!</a>
       </div>
     </div>
     <hr>

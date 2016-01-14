@@ -1,3 +1,31 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
 .banner{
 	position: relative;
 	overflow: hidden;
@@ -46,13 +74,8 @@ box{
 
 #hiddendog{display: none;}
 
-
-
-
-
-//Footer CSS
 .footer-distributed{
-	background-color: #ffffff;
+	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -81,11 +104,7 @@ box{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
-	color: #9d9d9d;
-}
-
-.footer-distributed p.footer-links a:hover{
-	color: #fff;
+	color:  inherit;
 }
 
 .footer-distributed .footer-right{
@@ -94,63 +113,20 @@ box{
 	max-width: 180px;
 }
 
-.footer-distributed .footer-right a i.fa-facebook{
+.footer-distributed .footer-right a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	background-color:  #3b5998;
+	background-color:  #33383b;
 	border-radius: 2px;
+
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
+
 	margin-left: 3px;
 }
-
-.footer-distributed .footer-right a i.fa-twitter{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	background-color:  #00aced;
-	border-radius: 2px;
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-	margin-left: 3px;
-}
-
-.footer-distributed .footer-right a i.fa-instagram{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	background-color:  #125688;
-	border-radius: 2px;
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-	margin-left: 3px;
-}
-
-.footer-distributed .footer-right a i.fa-github{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	background-color:  #333333;
-	border-radius: 2px;
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-	margin-left: 3px;
-}
-
-.footer-distributed .footer-right a i:hover{
-	opacity: 0.8;
-}
-
-
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -170,4 +146,5 @@ box{
 		line-height: 1.8;
 	}
 }
+
 
