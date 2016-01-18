@@ -36,7 +36,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h2>Where do we do it?</h2>
-        <p>The webpage is stored on Walker's dad's webserver and the printer is in Walker's basement. Mingle often comes over to work together.</p>
+        <p>The webpage is stored on Walker's dad's webserver and the printer is in Walker's basement. Mingle often comes over to Walker's house to work together.</p>
       </div>
     </div>
   </div>
