@@ -7,32 +7,20 @@ function toggle(el){
   }
 };
 
-function toggleform(el){
-  if (el.className == "col-sm-8 col-lg-8 col-md-8"){
-    el.className = "hidden";
-  } else {
-    el.className = "col-sm-8 col-lg-8 col-md-8";
-  }
-};
+<iframe src="https://docs.google.com/forms/d/1c9a5DCYuqkCMRVKI036pjlZp_vJ4X5xHeV1QAiuhbow/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             
 function togglebig(el){
   if (el.className == "col-sm-4 col-lg-4 col-md-4"){
-    el.className = "col-sm-12 col-lg-12 col-md-12";
+    el.className = "col-sm-8 col-lg-8 col-md-8";
   } else {  
     el.className = "col-sm-4 col-lg-4 col-md-4";
   }
 };
 
-function togglecase(){
-  toggle(cat);
-  toggle(dog);
-  toggleform(hcase);
-};
-
 function toggledog(){
   toggle(cases);
   toggle(cat);
-  toggleform(hdog);
+  togglebig(hdog);
 };
 </script>
   <div class="container">
@@ -44,8 +32,7 @@ function toggledog(){
           <div class="caption">
             <h4 class="pull-right">$10</h4>
             <h4>Custom Phone Case</h4>
-            <p>Get a custom phone case with a picture or text to show off to everyone!</p>
-            <button class="btn btn-primary" onclick="togglecase()">Get yours today!</button>
+            <p>Get a custom phone case with a picture or text to show off to everyone!<br><br><a href="/shop/case">Get yours today!</a></p>
           </div>
         </div>
       </div>
@@ -56,8 +43,7 @@ function toggledog(){
           <div class="caption">
             <h4 class="pull-right">$3</h4>
             <h4>Cuddling Cats</h4>
-            <p>Cats are the cutest things you will ever see in your life. Especially cuddling cats!</p>
-            <button class="btn btn-primary" onclick="togglecat()">You lika da catz?</button>
+            <p>Cats are the cutest things you will ever see in your life. Especially cuddling cats!<br><br><a href="/shop/cats">You like cats, right?</a></p>
           </div>
         </div>
       </div>
@@ -69,15 +55,12 @@ function toggledog(){
             <h4 class="pull-right">$3</h4>
             <h4>Sleeping Dog</h4>
             <p>Here it is for you, if you're more of a dog person! Dogs are just so cute when sleeping.</p>
-            <button class="btn btn-primary" onclick="toggledog()">Get one!</button>
+            <button class="btn btn-primary" id="toggledog" onclick="toggledog()">Learn more</button>
           </div>
         </div>
       </div>
-      <div id="hcase" class="hidden">
-        <iframe src="https://docs.google.com/forms/d/1c9a5DCYuqkCMRVKI036pjlZp_vJ4X5xHeV1QAiuhbow/viewform?embedded=true" width="760" height="1000">Loading...</iframe>
-      </div>
       <div id="hdog" class="hidden">
-        <iframe src="https://docs.google.com/forms/d/1Vt51KSGHA1JWxw-73UnK9TEu9ZJ_xJreUVImldLaTwc/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <iframe src="https://docs.google.com/forms/d/1c9a5DCYuqkCMRVKI036pjlZp_vJ4X5xHeV1QAiuhbow/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
     </div>
   </div>
