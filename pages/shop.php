@@ -29,6 +29,12 @@ function togglecase(){
   toggleform(hcase);
 };
 
+function togglecat(){
+  toggle(cases);
+  toggle(dog);
+  toggleform(hcat);
+};
+
 function toggledog(){
   toggle(cases);
   toggle(cat);
@@ -75,6 +81,9 @@ function toggledog(){
       </div>
       <div id="hcase" class="hidden">
         <iframe src="https://docs.google.com/forms/d/1c9a5DCYuqkCMRVKI036pjlZp_vJ4X5xHeV1QAiuhbow/viewform?embedded=true" width="760" height="1000">Loading...</iframe>
+      </div>
+      <div id="hcat" class="hidden">
+        <iframe src="https://docs.google.com/forms/d/1vHff0TbsCmwho8SVlhFYNLis9d9_tSenVhVFy2ScPJk/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
       <div id="hdog" class="hidden">
         <iframe src="https://docs.google.com/forms/d/1Vt51KSGHA1JWxw-73UnK9TEu9ZJ_xJreUVImldLaTwc/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

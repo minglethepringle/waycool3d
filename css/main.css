@@ -26,6 +26,13 @@ body {
     }
 }
 
+iframe {
+        border-style: solid;
+        border-width: 5px;
+        border-color: 4d4d4d;
+        border-radius: 10px;
+}
+
 .banner{
 	position: relative;
 	overflow: hidden;
