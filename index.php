@@ -19,7 +19,7 @@ if((isset($_SERVER['REQUEST_URI'])) && (preg_match('/^\/[A-Za-z0-9-_\/]+$/',($_S
 @include_once(realpath(__DIR__)).'/pages/data'.$req.'.php';
 if(!isset($meta)) {
     $meta = array(
-        "keywd" => "Waycool3D,3D printing,custom phone case,print,what you want",
+        "keywd" => "Waycool3D,3D printing,custom phone case,print,what you want,way cool,waycool,3d, way cool 3d",
         "descr" => "Waycool3D website and store.",
         "title" => "Waycool3D"
     );
