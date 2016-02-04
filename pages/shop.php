@@ -17,7 +17,7 @@
           <img src="img/cats.jpg" alt="Example of printed cats">
           <hr>
           <div class="caption">
-            <h4 class="pull-right">$3</h4>
+            <h4 class="pull-right">$5</h4>
             <h4>Cuddling Cats</h4>
             <p>Cats are the cutest things you will ever see in your life. Especially cuddling cats!</p>
             <button class="btn btn-primary" onclick="togglecat()">You lika da catz?</button>
@@ -29,7 +29,7 @@
           <img src="img/dogs.jpg" alt="Example of printed dogs">
           <hr>
           <div class="caption">
-            <h4 class="pull-right">$3</h4>
+            <h4 class="pull-right">$5</h4>
             <h4>Sleeping Dog</h4>
             <p>Here it is for you, if you're more of a dog person! Dogs are just so cute when sleeping.</p>
             <button class="btn btn-primary" onclick="toggledog()">Get one!</button>
@@ -41,7 +41,7 @@
           <img src="img/panda.jpg" alt="Example of printed panda">
           <hr>
           <div class="caption">
-            <h4 class="pull-right">$3</h4>
+            <h4 class="pull-right">$5</h4>
             <h4>Poofy Panda</h4>
             <p>This is a realistic model of a giant panda bear. It's still pretty cute though!</p>
             <button class="btn btn-primary" onclick="togglepanda()">Wanna panda?</button>
