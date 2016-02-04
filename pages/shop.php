@@ -42,7 +42,7 @@
           <hr>
           <div class="caption">
             <h4 class="pull-right">$3</h4>
-            <h4>Poofy Panda/h4>
+            <h4>Poofy Panda</h4>
             <p>This is a realistic model of a giant panda bear. It's still pretty cute though!</p>
             <button class="btn btn-primary" onclick="togglepanda()">Wanna panda?</button>
           </div>
