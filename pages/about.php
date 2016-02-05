@@ -29,7 +29,7 @@
       <div class="col-lg-12">
         <h2>What do we do?</h2>
         <p>Using Walker's 3rd generation Cube 3D printer from 3D Systems, we print whatever you order. We use non-toxic, environmentally friendly PLA plastic, which is high quality and prints in the highest resolution for a better product.</p>
-        <img src="/img/cube_printr" alt="3D printer">
+        <img src="/img/cubify.jpeg" alt="3D printer">
       </div>
     </div>
     <a id="where"></a>

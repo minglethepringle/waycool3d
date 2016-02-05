@@ -41,7 +41,11 @@
           <img src="img/panda.jpg" alt="Example of printed panda">
           <hr>
           <div class="caption">
+<<<<<<< HEAD
             <h4 class="pull-right">$5</h4>
+=======
+            <h4 class="pull-right">$3</h4>
+>>>>>>> dd4a78a7c8602cc8a6ea4d0bc05195c608efd12d
             <h4>Poofy Panda</h4>
             <p>This is a realistic model of a giant panda bear. It's still pretty cute though!</p>
             <button class="btn btn-primary" onclick="togglepanda()">Wanna panda?</button>
