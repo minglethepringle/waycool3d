@@ -36,19 +36,15 @@
           </div>
         </div>
       </div>
-      <div id="panda" class="col-sm-4 col-lg-4 col-md-4">
+      <div id="elephant" class="col-sm-4 col-lg-4 col-md-4">
         <div class="thumbnail">
-          <img src="img/panda.jpg" alt="Example of printed panda">
+          <img src="img/elephant.jpeg" alt="Example of printed elephant">
           <hr>
           <div class="caption">
-<<<<<<< HEAD
             <h4 class="pull-right">$5</h4>
-=======
-            <h4 class="pull-right">$3</h4>
->>>>>>> dd4a78a7c8602cc8a6ea4d0bc05195c608efd12d
-            <h4>Poofy Panda</h4>
-            <p>This is a realistic model of a giant panda bear. It's still pretty cute though!</p>
-            <button class="btn btn-primary" onclick="togglepanda()">Wanna panda?</button>
+            <h4>Print-In-Place Elephant</h4>
+            <p>This is an elephant that has legs that can move right after printing. It's very cute!</p>
+            <button class="btn btn-primary" onclick="toggleelephant()">Wanna elephant?</button>
           </div>
         </div>
       </div>
@@ -61,8 +57,8 @@
       <div id="hdog" class="hidden">
         <iframe src="https://docs.google.com/forms/d/1Vt51KSGHA1JWxw-73UnK9TEu9ZJ_xJreUVImldLaTwc/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
-      <div id="hpanda" class="hidden">
-        <iframe src="https://docs.google.com/forms/d/1igByXIEDv18zmvFYoEhipWCU8t6krJZpOzeRwLETWU8/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <div id="helephant" class="hidden">
+        <iframe src="https://docs.google.com/forms/d/1GwaD5tTQdumVSORNZKI8MDWkgnEVbET7VgEIRoIN5lg/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
     </div>
   </div>
