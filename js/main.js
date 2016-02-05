@@ -25,27 +25,27 @@ function togglebig(el){
 function togglecase(){
   toggle(cat);
   toggle(dog);
-  toggle(panda);
+  toggle(elephant);
   toggleform(hcase);
 };
 
 function togglecat(){
   toggle(cases);
   toggle(dog);
-  toggle(panda);
+  toggle(elephant);
   toggleform(hcat);
 };
 
 function toggledog(){
   toggle(cases);
   toggle(cat);
-  toggle(panda);
+  toggle(elephant);
   toggleform(hdog);
 };
 
-function togglepanda(){
+function toggleelephant(){
   toggle(cases);
   toggle(cat);
   toggle(dog);
-  toggleform(hpanda);
+  toggleform(helephant);
 };
