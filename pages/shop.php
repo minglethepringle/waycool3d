@@ -38,12 +38,12 @@
       </div>
       <div id="elephant" class="col-sm-4 col-lg-4 col-md-4">
         <div class="thumbnail">
-          <img src="img/elephant.jpeg" alt="Example of printed elephant">
+          <img src="img/elephant.jpg" alt="Example of printed elephant">
           <hr>
           <div class="caption">
             <h4 class="pull-right">$5</h4>
-            <h4>Print-In-Place Elephant</h4>
-            <p>This is an elephant that has legs that can move right after printing. It's very cute!</p>
+            <h4>Baby Elephant</h4>
+            <p>This baby elephant is sitting down with its trunk high up in the air. It's very cute!</p>
             <button class="btn btn-primary" onclick="toggleelephant()">Wanna elephant?</button>
           </div>
         </div>
