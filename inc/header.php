@@ -18,6 +18,7 @@
   <!-- Google Font CSS-->
   <link href='https://fonts.googleapis.com/css?family=Kanit:300' rel='stylesheet' type='text/css'>
   <link href="./fonts/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+  <script src="./js/jquery.js"></script>
   <link href="./css/common.css" rel="stylesheet">
   <link href="./css/main.css" rel="stylesheet">
   <script src="./js/main.js"></script>
