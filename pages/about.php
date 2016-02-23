@@ -1,6 +1,5 @@
   <div class="container" style="text-align: center">
     <a id="who"></a>
-    <p>BAR</p>
     <div class="row">
       <div class="col-lg-12">
         <h2>Who are we?</h2>
