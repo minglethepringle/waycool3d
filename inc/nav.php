@@ -26,7 +26,7 @@
           <a href="/story">Our Story</a>
         </li>
         <li>
-          <a href="/contacts">Contact Us</a>
+          <a href="/contact">Contact Us</a>
         </li>
       </ul>
     </div>
