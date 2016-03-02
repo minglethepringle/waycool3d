@@ -32,7 +32,7 @@
             <h4 class="pull-right">$5</h4>
             <h4>Sleeping Dog</h4>
             <p>Here it is for you, if you're more of a dog person! Dogs are just so cute when sleeping.</p>
-            <button class="btn btn-primary toggle">Get yer doggy!</button>
+            <button class="btn btn-primary toggle">Get yer doge!</button>
           </div>
         </div>
       </div>
